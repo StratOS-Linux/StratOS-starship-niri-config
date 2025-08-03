@@ -8,7 +8,7 @@ license=('GPL3')
 depends=(
     'starship'
 )
-source=('.config')
+source=()
 md5sums=('SKIP')
 install=stratos-starship-config.install
 
