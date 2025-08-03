@@ -9,7 +9,6 @@ depends=(
     'starship'
 )
 source=()
-md5sums=('SKIP')
 install=stratos-starship-config.install
 
 prepare() {
