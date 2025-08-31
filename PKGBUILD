@@ -1,8 +1,8 @@
 # Maintainer: @zstg <zestig@duck.com>
 pkgname=stratos-starship-config
 pkgver=1.0
-pkgrel=2
-pkgdesc="Starship configuration for StratOS"
+pkgrel=3
+pkgdesc="Starship configuration for StratOS Niri spin"
 arch=('any')
 license=('GPL3')
 depends=(
@@ -18,5 +18,5 @@ prepare() {
 package() {
     install -d "$pkgdir/etc/skel/.config"
     cp -r "$srcdir/.config/starship/" "$pkgdir/etc/skel/.config/"
-    cp "$srcdir/.config/starship/tokyonight-dark/starship.toml" "$pkgdir/etc/skel/.config/starship.toml"
+    cp "$srcdir/.config/starship/onedark/starship.toml" "$pkgdir/etc/skel/.config/starship.toml"
 }
