@@ -1,5 +1,5 @@
 # Maintainer: @magitian <magitian@duck.com>
-pkgname=stratos-starship-config
+pkgname=stratos-starship-niri-config
 pkgver=1.0
 pkgrel=3
 pkgdesc="Starship configuration for StratOS Niri spin"
