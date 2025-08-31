@@ -1,4 +1,4 @@
-# Maintainer: @zstg <zestig@duck.com>
+# Maintainer: @magitian <magitian@duck.com>
 pkgname=stratos-starship-config
 pkgver=1.0
 pkgrel=3
