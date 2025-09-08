@@ -1,13 +1,14 @@
 # Maintainer: @magitian <magitian@duck.com>
 pkgname=stratos-starship-niri-config
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Starship configuration for StratOS Niri spin"
 arch=('any')
 license=('GPL3')
 depends=(
     'starship'
 )
+conflicts=('stratos-starship-hyprland-config')
 source=()
 install=stratos-starship-config.install
 
